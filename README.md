@@ -1,35 +1,18 @@
-# vue-app
+# Teste de nivelamento
 
-This template should help get you started developing with Vue 3 in Vite.
+## 1. Web scraping
 
-## Recommended IDE Setup
+Criado script para download e compactação dos anexos a serem utilizados para busca usando BeautifulSoup4.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 2. Transformação de dados
 
-## Customize configuration
+Extração de tabelas do anexo utilizando pymupdf e criação de arquivo csv.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 3. Banco de dados
 
-## Project Setup
+Uso de sqlite para realização de queries em arquivo csv e busca de operadores.
 
-```sh
-npm install
-```
+## 4. Banco de dados
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Criação de API em python com flask para busca de operadoras a partir de filtros definidos (modalidade, cidade etc.),
+e integração com Vue.js para visualização dos dados. 
