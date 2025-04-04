@@ -1,0 +1,496 @@
+{
+	"info": {
+		"_postman_id": "5e1870e6-5a75-468e-98fa-5566107b062b",
+		"name": "Search API - Operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39586131"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Operadoras de Campinas na modalidade \"Medicina de grupo\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?city=Campinas&modality=Medicina de Grupo",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "reg",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "Campinas"
+								},
+								{
+									"key": "cnpj",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "modality",
+									"value": "Medicina de Grupo"
+								},
+								{
+									"key": "state",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "corp_name",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "fantasy_name",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Apr 2025 12:02:52 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3989"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 13010151,\n        \"CNPJ\": 27452545000195,\n        \"Cargo_Representante\": \"REPRESENTANTE\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"1º ANDAR\",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2018-10-09\",\n        \"Endereco_eletronico\": \"ans.plano@hospitalcare.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA: BERNARDINO DE CAMPOS\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"230\",\n        \"Razao_Social\": \"2CARE OPERADORA DE SAÚDE LTDA.\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 421421,\n        \"Representante\": \"RODRIGO PINHO RIBEIRO\",\n        \"Telefone\": \"37901224.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"VILA ITAPURA\",\n        \"CEP\": 13023190,\n        \"CNPJ\": 11939445000158,\n        \"Cargo_Representante\": \"REPRESENTANTE\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"CJ 51 A 54 - LOTE 5A\",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2010-09-02\",\n        \"Endereco_eletronico\": \"diretoria@saudebeneficencia.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA TIRADENTES\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"SAÚDE BENEFICÊNCIA\",\n        \"Numero\": \"293\",\n        \"Razao_Social\": \"ASSOCIAÇÃO DE SAÚDE PORTUGUESA DE BENEFICÊNCIA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 417530,\n        \"Representante\": \"ARLY DE LARA ROMÊO\",\n        \"Telefone\": \"35001500.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"JARDIM CHAPADAO\",\n        \"CEP\": 13070147,\n        \"CNPJ\": 40187311000126,\n        \"Cargo_Representante\": \"sócia administradora\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": null,\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2021-03-04\",\n        \"Endereco_eletronico\": \"presidencia@gocaresaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA ERASMO BRAGA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"1175\",\n        \"Razao_Social\": \"GOCARE PLANOS DE SAUDE LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 422681,\n        \"Representante\": \"TÂNIA MARA MACHADO ANTONIO\",\n        \"Telefone\": \"31992588.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"JARDIM NOVA EUROPA\",\n        \"CEP\": 13040145,\n        \"CNPJ\": 3011072000122,\n        \"Cargo_Representante\": \"SÓCIO ADMINISTRADOR\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"ANDAR PISO SUPERIOR \",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2000-05-12\",\n        \"Endereco_eletronico\": \"phs@samaritosaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"AV SAO JOSE DOS CAMPOS \",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PHS SAMARITANO SAÚDE\",\n        \"Numero\": \"256\",\n        \"Razao_Social\": \"PLANO HOSPITAL SAMARITANO LTDA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 411256,\n        \"Representante\": \"RICARDO DE CAPRIO\",\n        \"Telefone\": \"32322150.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"Jd. Madalena\",\n        \"CEP\": 13091611,\n        \"CNPJ\": 40038813000195,\n        \"Cargo_Representante\": \"Diretor\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"Térreo\",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2021-05-11\",\n        \"Endereco_eletronico\": \"adilson@salusmedsaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Av Dr José Bonifácio Coutinho Nogueira\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"150\",\n        \"Razao_Social\": \"SALUSMED OPERADORA DE PLANOS DE SAUDE LTDA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 422746,\n        \"Representante\": \"JOSÉ ADILSON BONATTO\",\n        \"Telefone\": \"981572304.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 13013001,\n        \"CNPJ\": 5029064000139,\n        \"Cargo_Representante\": \"DIRETOR\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"ANDAR 8 CONJUNTO 08\",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2004-08-17\",\n        \"Endereco_eletronico\": \"ggprado@terra.com.br\",\n        \"Fax\": \"37334332.0\",\n        \"Logradouro\": \"RUA JOSÉ PAULINO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"1248\",\n        \"Razao_Social\": \"SAÚDE SANTA TEREZA LTDA.\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 414930,\n        \"Representante\": \"GUILHERME DE MEDEIROS PRADO\",\n        \"Telefone\": \"37334330.0\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"VILA ITAPURA\",\n        \"CEP\": 13015097,\n        \"CNPJ\": 33379144000150,\n        \"Cargo_Representante\": \"SOCIO ADMINISTRADOR\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"TÉRREO\",\n        \"DDD\": null,\n        \"Data_Registro_ANS\": \"2019-12-03\",\n        \"Endereco_eletronico\": \"diretoria@unicassaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA BARATA RIBEIRO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"288\",\n        \"Razao_Social\": \"ÚNICA ASSISTENCIA MEDICA LTDA \",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 421944,\n        \"Representante\": \"JOÃO BORGES LUCCHESI GONÇALVES\",\n        \"Telefone\": null,\n        \"UF\": \"SP\"\n    }\n]"
+				},
+				{
+					"name": "Operadoras de MG na modalidade \"Medicina de grupo\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?modality=Medicina de Grupo&state=MG",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "reg",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "cnpj",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "modality",
+									"value": "Medicina de Grupo"
+								},
+								{
+									"key": "state",
+									"value": "MG"
+								},
+								{
+									"key": "corp_name",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "fantasy_name",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Apr 2025 12:05:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "13553"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 36010360,\n        \"CNPJ\": 17143876000190,\n        \"Cargo_Representante\": \"DIRETORA ADMINISTRATIVA E FINANCEIRA\",\n        \"Cidade\": \"Juiz de Fora\",\n        \"Complemento\": null,\n        \"DDD\": \"32.0\",\n        \"Data_Registro_ANS\": \"1998-12-22\",\n        \"Endereco_eletronico\": \"amesaude24h@terra.com.br\",\n        \"Fax\": \"32155201.0\",\n        \"Logradouro\": \"RUA SAMPAIO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"AME-SISTEMA DE SAÚDE 24 HORAS\",\n        \"Numero\": \"376\",\n        \"Razao_Social\": \"AME-ASSISTÊNCIA MÉDICA A EMPRESAS LTDA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 304531,\n        \"Representante\": \"REGINA MARIA AGUIAR DE SOUZA FELLET\",\n        \"Telefone\": \"21015600.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"MOCOQUINHA\",\n        \"CEP\": 37957148,\n        \"CNPJ\": 20946877000187,\n        \"Cargo_Representante\": \"DIRETOR PRESIDENTE\",\n        \"Cidade\": \"São Sebastião do Paraíso\",\n        \"Complemento\": null,\n        \"DDD\": \"35.0\",\n        \"Data_Registro_ANS\": \"1998-12-21\",\n        \"Endereco_eletronico\": \"ampara@ampara.com.br\",\n        \"Fax\": \"35393600.0\",\n        \"Logradouro\": \"PÇ COMENDADOR JOÃO PIO FIGUEIREDO WESTIN\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"AMPARA \",\n        \"Numero\": \"107\",\n        \"Razao_Social\": \"AMPARA ASSISTÊNCIA MÉDICA PARAÍSO LTDA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 325465,\n        \"Representante\": \"ANTONIO CARLOS MAFFEI BRAGIATO\",\n        \"Telefone\": \"35393636.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 30411023,\n        \"CNPJ\": 43047552000168,\n        \"Cargo_Representante\": \"SOCIO ADMINISTRADOR \",\n        \"Cidade\": \"Betim\",\n        \"Complemento\": \"SALA 201\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2023-11-14\",\n        \"Endereco_eletronico\": \"amaral.diego@gmail.com\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA INCONFIDÊNCIA \",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"VYDA SAUDE\",\n        \"Numero\": \"488\",\n        \"Razao_Social\": \"AMPLITUDE PLANOS DE SAUDE LTDA \",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 423858,\n        \"Representante\": \"DIEGO ALVES AMARAL \",\n        \"Telefone\": \"39235406.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Vila da Serra\",\n        \"CEP\": 34006053,\n        \"CNPJ\": 49955478000164,\n        \"Cargo_Representante\": \"SÓCIA ADMINISTRADORA\",\n        \"Cidade\": \"Nova Lima\",\n        \"Complemento\": \"Salas 903/904/905/906\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2023-07-03\",\n        \"Endereco_eletronico\": \"ans@souaurorasaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Rua Ministro Orozimbo Nonato\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"AURORA SAÚDE\",\n        \"Numero\": \"442\",\n        \"Razao_Social\": \"AURORA SAÚDE LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423629,\n        \"Representante\": \"LILIANE COSTA FREITAS OLIVEIRA\",\n        \"Telefone\": \"971231133.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"VARGINHA\",\n        \"CEP\": 37500000,\n        \"CNPJ\": 18987107000130,\n        \"Cargo_Representante\": \"DIRETORA ADMINISTRATIVA\",\n        \"Cidade\": \"Itajubá\",\n        \"Complemento\": \"3º ANDAR, SALA 1\",\n        \"DDD\": \"35.0\",\n        \"Data_Registro_ANS\": \"1998-12-18\",\n        \"Endereco_eletronico\": \"contabilidade@ceambrasil.com.br\",\n        \"Fax\": \"36298040.0\",\n        \"Logradouro\": \"PRAÇA DR. CARLOS VICTOR\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"CEAM BRASIL\",\n        \"Numero\": \"01\",\n        \"Razao_Social\": \"CEAM BRASIL - PLANOS DE SAÚDE LTDA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 311472,\n        \"Representante\": \"KAREN RUBIA BATISTA DE TOLEDO\",\n        \"Telefone\": \"36298109.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 36200074,\n        \"CNPJ\": 6814351000112,\n        \"Cargo_Representante\": \"SÓCIO-ADMINISTRADOR \",\n        \"Cidade\": \"Barbacena\",\n        \"Complemento\": \"LOJA 16\",\n        \"DDD\": \"32.0\",\n        \"Data_Registro_ANS\": \"2013-01-11\",\n        \"Endereco_eletronico\": \"regulacao@cedplan.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA QUINZE DE NOVEMBRO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"126\",\n        \"Razao_Social\": \"CEDPLAN SAÚDE LTDA EPP\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 418749,\n        \"Representante\": \"DAVID ALDRIN LOPES CARNEIRO\",\n        \"Telefone\": \"33396250.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"PADRE EUSTÁQUIO\",\n        \"CEP\": 30730170,\n        \"CNPJ\": 3613857000175,\n        \"Cargo_Representante\": \"ADMINISTRADOR \",\n        \"Cidade\": \"Belo Horizonte\",\n        \"Complemento\": null,\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2000-02-21\",\n        \"Endereco_eletronico\": \"gerencia@confiancasaude.com.br\",\n        \"Fax\": \"34112025.0\",\n        \"Logradouro\": \"RUA LORENA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"CONFIANÇA SAÚDE\",\n        \"Numero\": \"767\",\n        \"Razao_Social\": \"CONFIANÇA ASSISTÊNCIA MÉDICO HOSPITALAR LTDA\",\n        \"Regiao_de_Comercializacao\": \"4.0\",\n        \"Registro_ANS\": 410624,\n        \"Representante\": \"ROBERTO D'ASSUMPCAO GUIMARAES\",\n        \"Telefone\": \"34112025.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 36570000,\n        \"CNPJ\": 14408631000159,\n        \"Cargo_Representante\": \"REPRESENTANTE LEGAL\",\n        \"Cidade\": \"Viçosa\",\n        \"Complemento\": \"LOJA 01 - ED REGINA LOPES DOS SANTOS\",\n        \"DDD\": null,\n        \"Data_Registro_ANS\": \"2012-05-03\",\n        \"Endereco_eletronico\": \"plamhuv@plamhuv.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"TRAVESSA DR. FELÍCIO BRANDI\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLAMHUV\",\n        \"Numero\": \"22\",\n        \"Razao_Social\": \"FUNDAÇÃO PLAMHUV - PLANO MÉDICO HOSPITALAR DOS HOSPITAIS UNIDOS DE VIÇOSA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 418501,\n        \"Representante\": \"JULISMAR MARQUES DIVINO\",\n        \"Telefone\": null,\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 30130905,\n        \"CNPJ\": 14576780000127,\n        \"Cargo_Representante\": \"SÓCIA ADMINISTRADORA\",\n        \"Cidade\": \"Belo Horizonte\",\n        \"Complemento\": \"SALAS 1401 A 1411\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2015-05-07\",\n        \"Endereco_eletronico\": \"administrativo@medgoldsaude.com.br\",\n        \"Fax\": \"32440267.0\",\n        \"Logradouro\": \"AVENIDA AFONSO PENA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"GOLDMED\",\n        \"Numero\": \"867\",\n        \"Razao_Social\": \"MEDGOLD ASSISTENCIA MEDICA LTDA - ME\",\n        \"Regiao_de_Comercializacao\": \"4.0\",\n        \"Registro_ANS\": 419753,\n        \"Representante\": \"YAMANI SIMIONI GONÇALVES DE OLIVEIRA\",\n        \"Telefone\": \"83186168.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"JARDIM SÃO CRISTOVÃO \",\n        \"CEP\": 37640000,\n        \"CNPJ\": 3548273000163,\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"Extrema\",\n        \"Complemento\": null,\n        \"DDD\": \"35.0\",\n        \"Data_Registro_ANS\": \"2000-08-04\",\n        \"Endereco_eletronico\": \"medicglobal@medicglobal.com.br\",\n        \"Fax\": \"34353114.0\",\n        \"Logradouro\": \"RUA ALCEBIADES WOLHERS\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"MEDIC GLOBAL PLANOS DE SAÚDE.\",\n        \"Numero\": \"02\",\n        \"Razao_Social\": \"MEDIC GLOBAL PLANOS DE SAÚDE LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 411868,\n        \"Representante\": \"SEBASTIÃO ANTONIO CAMARGO ROSSI\",\n        \"Telefone\": \"34353114.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 36307302,\n        \"CNPJ\": 4299994000140,\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"São João del Rei\",\n        \"Complemento\": null,\n        \"DDD\": \"32.0\",\n        \"Data_Registro_ANS\": \"2001-04-19\",\n        \"Endereco_eletronico\": \"gerencia@plamedh.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA QUINTINO BOCAIUVA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLAMEDH\",\n        \"Numero\": \"232\",\n        \"Razao_Social\": \"PLAMEDH - PLANO DE ASSISTÊNCIA MÉDICO-HOSPITALAR LTDA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 413551,\n        \"Representante\": \"JOÃO DE FIGUEIREDO PEREIRA CURADO\",\n        \"Telefone\": \"33715795.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Centro\",\n        \"CEP\": 32600100,\n        \"CNPJ\": 52041306000190,\n        \"Cargo_Representante\": \"Diretor\",\n        \"Cidade\": \"Betim\",\n        \"Complemento\": \"Sala 201A\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2024-02-19\",\n        \"Endereco_eletronico\": \"joao.figueiredo@plamedh.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Rua Inconfindência\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLAMEDH PLANOS  \",\n        \"Numero\": \"488\",\n        \"Razao_Social\": \"PLAMEDH PLANOS DE SAÚDE LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423882,\n        \"Representante\": \"JOÃO DE FIGUEIREDO PEREIRA CURADO\",\n        \"Telefone\": \"982611106.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 35010090,\n        \"CNPJ\": 2513939000185,\n        \"Cargo_Representante\": \"DIRETOR ADMINISTRATIVO\",\n        \"Cidade\": \"Governador Valadares\",\n        \"Complemento\": \"3º ANDAR - SALAS 301 A 304\",\n        \"DDD\": \"33.0\",\n        \"Data_Registro_ANS\": \"1999-01-04\",\n        \"Endereco_eletronico\": \"juniorsaolucassaude@veloxmail.com.br\",\n        \"Fax\": \"32797600.0\",\n        \"Logradouro\": \"RUA DOM PEDRO II\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"SÃO LUCAS SAÚDE\",\n        \"Numero\": \"780\",\n        \"Razao_Social\": \"PLANO ASSISTENCIAL SÃO LUCAS LTDA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 363391,\n        \"Representante\": \"JOSE FERREIRA JUNIOR\",\n        \"Telefone\": \"32797600.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"APARECIDA\",\n        \"CEP\": 38400610,\n        \"CNPJ\": 22027346000116,\n        \"Cargo_Representante\": \"DIRETOR ADMINISTRATIVO\",\n        \"Cidade\": \"Uberlândia\",\n        \"Complemento\": null,\n        \"DDD\": \"34.0\",\n        \"Data_Registro_ANS\": \"1999-01-04\",\n        \"Endereco_eletronico\": \"uniaocon@triang.com.br\",\n        \"Fax\": \"32318012.0\",\n        \"Logradouro\": \"RUA ROOSEVELT DE OLIVEIRA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLAM\",\n        \"Numero\": \"251\",\n        \"Razao_Social\": \"PLANO DE ASSISTÊNCIA MÉDICA MINEIRA LTDA\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 382281,\n        \"Representante\": \"NEUBER MARTINS FONSECA\",\n        \"Telefone\": \"32318012.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 39400098,\n        \"CNPJ\": 22666341000133,\n        \"Cargo_Representante\": \"PRESIDENTE\",\n        \"Cidade\": \"Montes Claros\",\n        \"Complemento\": \"SALA 01\",\n        \"DDD\": \"38.0\",\n        \"Data_Registro_ANS\": \"1998-12-22\",\n        \"Endereco_eletronico\": \"ans@saolucas.org\",\n        \"Fax\": null,\n        \"Logradouro\": \"AV. AFONSO PENA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLANO DE SAUDE SAO LUCAS\",\n        \"Numero\": \"544\",\n        \"Razao_Social\": \"PRONTOCLINICA E HOSPITAIS SAO LUCAS S/A\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 305626,\n        \"Representante\": \"DILSON DE QUADROS GODINHO NETO\",\n        \"Telefone\": \"32183000.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 35500011,\n        \"CNPJ\": 20168589000149,\n        \"Cargo_Representante\": \"SOCIO GERENTE\",\n        \"Cidade\": \"Divinópolis\",\n        \"Complemento\": null,\n        \"DDD\": \"37.0\",\n        \"Data_Registro_ANS\": \"1998-12-23\",\n        \"Endereco_eletronico\": \"prontomed@prontomedmg.com.br\",\n        \"Fax\": \"35123209.0\",\n        \"Logradouro\": \"AV. SETE DE SETEMBRO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PRONTOMED LTDA.\",\n        \"Numero\": \"1161\",\n        \"Razao_Social\": \"PRONTOMED PLANOS DE SAÚDE LTDA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 301728,\n        \"Representante\": \"WALDEMAR HENRIQUE RAUSCH JUNIOR\",\n        \"Telefone\": \"351232013216.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Miranda\",\n        \"CEP\": 38444128,\n        \"CNPJ\": 51212821000122,\n        \"Cargo_Representante\": \"Diretor Jurídico\",\n        \"Cidade\": \"Araguari\",\n        \"Complemento\": \"loja 11\",\n        \"DDD\": null,\n        \"Data_Registro_ANS\": \"2024-01-02\",\n        \"Endereco_eletronico\": \"diretoriaadm@sagradasaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Av Minas Gerais\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLANO SAGRADA SAUDE\",\n        \"Numero\": \"90\",\n        \"Razao_Social\": \"SAGRADA SAÚDE ASSISTÊNCIA MÉDICA LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423815,\n        \"Representante\": \"PEDRO HENRIQUE OLIVEIRA ASCENCAO\",\n        \"Telefone\": null,\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 38400126,\n        \"CNPJ\": 49481538000154,\n        \"Cargo_Representante\": \"DIRETORA SUPERINTENDENTE\",\n        \"Cidade\": \"Uberlândia\",\n        \"Complemento\": \"2º ANDAR\",\n        \"DDD\": \"34.0\",\n        \"Data_Registro_ANS\": \"2023-10-30\",\n        \"Endereco_eletronico\": \"grc@uniparticipacoes.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"AVENIDA JOÃO PINHEIRO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"NEXASAUDE\",\n        \"Numero\": \"639\",\n        \"Razao_Social\": \"SAUDIA ASSISTENCIA MÉDICA LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423645,\n        \"Representante\": \"LIVIA MENDES DE PAULA\",\n        \"Telefone\": \"32396995.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"SÃO JOSÉ\",\n        \"CEP\": 36660000,\n        \"CNPJ\": 16608812000154,\n        \"Cargo_Representante\": \"REPRESENTANTE LEGAL\",\n        \"Cidade\": \"Além Paraíba\",\n        \"Complemento\": null,\n        \"DDD\": \"32.0\",\n        \"Data_Registro_ANS\": \"2001-05-21\",\n        \"Endereco_eletronico\": \"cbn@cbnassessoria.com.br\",\n        \"Fax\": \"34624047.0\",\n        \"Logradouro\": \"AVENIDA DEZOITO DE JULHO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"SOCIEDADE BENEFICENTE DEZOITO DE JULHO\",\n        \"Numero\": \"227\",\n        \"Razao_Social\": \"SOCIEDADE BENEFICENTE DEZOITO DE JULHO\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 413721,\n        \"Representante\": \"KIRCLE TAVARES BASTOS\",\n        \"Telefone\": \"34624053.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"ESTORIL\",\n        \"CEP\": 30494310,\n        \"CNPJ\": 43079723000130,\n        \"Cargo_Representante\": \"REPRESENTANTE LEGAL\",\n        \"Cidade\": \"Belo Horizonte\",\n        \"Complemento\": \"2º ANDAR - SALA 201\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2023-03-13\",\n        \"Endereco_eletronico\": \"sergio.araujo@operadoraaurasaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"AVENIDA RAJA GABAGLIA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"AURA SAÚDE\",\n        \"Numero\": \"3502\",\n        \"Razao_Social\": \"TOTAL ASSISTÊNCIA MÉDICA HOSPITALAR LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423548,\n        \"Representante\": \"SORMANE ALVES PARREIRA\",\n        \"Telefone\": \"99924317.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 32044000,\n        \"CNPJ\": 51421959000131,\n        \"Cargo_Representante\": \"SÓCIO ADMINISTRADOR\",\n        \"Cidade\": \"Contagem\",\n        \"Complemento\": \"LETRA A SALA 05\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2024-06-10\",\n        \"Endereco_eletronico\": \"felipe.gomes@campellogomes.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA NOSSA SENHORA DA CONCEICAO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": null,\n        \"Numero\": \"756\",\n        \"Razao_Social\": \"VCT PLANOS DE SAUDE LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 424013,\n        \"Representante\": \"ANTONIO GOMES DOS SANTOS JUNIOR\",\n        \"Telefone\": \"983688989.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CASCATINHA\",\n        \"CEP\": 36033318,\n        \"CNPJ\": 1648339000161,\n        \"Cargo_Representante\": \"REPRESENTANTE \",\n        \"Cidade\": \"Juiz de Fora\",\n        \"Complemento\": \"LOJA 202 E\",\n        \"DDD\": null,\n        \"Data_Registro_ANS\": \"2004-07-13\",\n        \"Endereco_eletronico\": \"cristiane@sabinsinai.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"AVENIDA PRESIDENTE ITAMAR FRANCO\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"SABIN SINAI\",\n        \"Numero\": \"4001\",\n        \"Razao_Social\": \"VITA ASSISTÊNCIA A SAÚDE LTDA.\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 414905,\n        \"Representante\": \"CRISTIANE COIMBRA SCHEFFER\",\n        \"Telefone\": null,\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Cruzeiro\",\n        \"CEP\": 30310160,\n        \"CNPJ\": 37354048000108,\n        \"Cargo_Representante\": \"Administrador\",\n        \"Cidade\": \"Belo Horizonte\",\n        \"Complemento\": \"1o Andar / 101\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2020-09-03\",\n        \"Endereco_eletronico\": \"ricardo.andrade@yousaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Rua Albita\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"YOU SAÚDE\",\n        \"Numero\": \"131\",\n        \"Razao_Social\": \"YOU ASSISTÊNCIA MÉDICA LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 422380,\n        \"Representante\": \"CARLOS RODRIGO LELIS LACOTIS\",\n        \"Telefone\": \"983688989.0\",\n        \"UF\": \"MG\"\n    }\n]"
+				},
+				{
+					"name": "Busca parcial de nome fantasia com \"Plano\" em MG",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?state=MG&fantasy_name=Plano",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "reg",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "cnpj",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "modality",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "state",
+									"value": "MG"
+								},
+								{
+									"key": "corp_name",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fantasy_name",
+									"value": "Plano"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Apr 2025 12:09:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2318"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"JARDIM SÃO CRISTOVÃO \",\n        \"CEP\": 37640000,\n        \"CNPJ\": 3548273000163,\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"Extrema\",\n        \"Complemento\": null,\n        \"DDD\": \"35.0\",\n        \"Data_Registro_ANS\": \"2000-08-04\",\n        \"Endereco_eletronico\": \"medicglobal@medicglobal.com.br\",\n        \"Fax\": \"34353114.0\",\n        \"Logradouro\": \"RUA ALCEBIADES WOLHERS\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"MEDIC GLOBAL PLANOS DE SAÚDE.\",\n        \"Numero\": \"02\",\n        \"Razao_Social\": \"MEDIC GLOBAL PLANOS DE SAÚDE LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 411868,\n        \"Representante\": \"SEBASTIÃO ANTONIO CAMARGO ROSSI\",\n        \"Telefone\": \"34353114.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Centro\",\n        \"CEP\": 32600100,\n        \"CNPJ\": 52041306000190,\n        \"Cargo_Representante\": \"Diretor\",\n        \"Cidade\": \"Betim\",\n        \"Complemento\": \"Sala 201A\",\n        \"DDD\": \"31.0\",\n        \"Data_Registro_ANS\": \"2024-02-19\",\n        \"Endereco_eletronico\": \"joao.figueiredo@plamedh.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Rua Inconfindência\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLAMEDH PLANOS  \",\n        \"Numero\": \"488\",\n        \"Razao_Social\": \"PLAMEDH PLANOS DE SAÚDE LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423882,\n        \"Representante\": \"JOÃO DE FIGUEIREDO PEREIRA CURADO\",\n        \"Telefone\": \"982611106.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 39400098,\n        \"CNPJ\": 22666341000133,\n        \"Cargo_Representante\": \"PRESIDENTE\",\n        \"Cidade\": \"Montes Claros\",\n        \"Complemento\": \"SALA 01\",\n        \"DDD\": \"38.0\",\n        \"Data_Registro_ANS\": \"1998-12-22\",\n        \"Endereco_eletronico\": \"ans@saolucas.org\",\n        \"Fax\": null,\n        \"Logradouro\": \"AV. AFONSO PENA\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLANO DE SAUDE SAO LUCAS\",\n        \"Numero\": \"544\",\n        \"Razao_Social\": \"PRONTOCLINICA E HOSPITAIS SAO LUCAS S/A\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 305626,\n        \"Representante\": \"DILSON DE QUADROS GODINHO NETO\",\n        \"Telefone\": \"32183000.0\",\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"Miranda\",\n        \"CEP\": 38444128,\n        \"CNPJ\": 51212821000122,\n        \"Cargo_Representante\": \"Diretor Jurídico\",\n        \"Cidade\": \"Araguari\",\n        \"Complemento\": \"loja 11\",\n        \"DDD\": null,\n        \"Data_Registro_ANS\": \"2024-01-02\",\n        \"Endereco_eletronico\": \"diretoriaadm@sagradasaude.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"Av Minas Gerais\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"PLANO SAGRADA SAUDE\",\n        \"Numero\": \"90\",\n        \"Razao_Social\": \"SAGRADA SAÚDE ASSISTÊNCIA MÉDICA LTDA\",\n        \"Regiao_de_Comercializacao\": null,\n        \"Registro_ANS\": 423815,\n        \"Representante\": \"PEDRO HENRIQUE OLIVEIRA ASCENCAO\",\n        \"Telefone\": null,\n        \"UF\": \"MG\"\n    }\n]"
+				},
+				{
+					"name": "Busca por CNPJ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?cnpj=3548273000163",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "reg",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "cnpj",
+									"value": "3548273000163"
+								},
+								{
+									"key": "modality",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "state",
+									"value": "MG",
+									"disabled": true
+								},
+								{
+									"key": "corp_name",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fantasy_name",
+									"value": "Plano",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Apr 2025 12:10:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "619"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"JARDIM SÃO CRISTOVÃO \",\n        \"CEP\": 37640000,\n        \"CNPJ\": 3548273000163,\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"Extrema\",\n        \"Complemento\": null,\n        \"DDD\": \"35.0\",\n        \"Data_Registro_ANS\": \"2000-08-04\",\n        \"Endereco_eletronico\": \"medicglobal@medicglobal.com.br\",\n        \"Fax\": \"34353114.0\",\n        \"Logradouro\": \"RUA ALCEBIADES WOLHERS\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"MEDIC GLOBAL PLANOS DE SAÚDE.\",\n        \"Numero\": \"02\",\n        \"Razao_Social\": \"MEDIC GLOBAL PLANOS DE SAÚDE LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6.0\",\n        \"Registro_ANS\": 411868,\n        \"Representante\": \"SEBASTIÃO ANTONIO CAMARGO ROSSI\",\n        \"Telefone\": \"34353114.0\",\n        \"UF\": \"MG\"\n    }\n]"
+				},
+				{
+					"name": "Busca por registro",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/search?reg=417530",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "reg",
+									"value": "417530"
+								},
+								{
+									"key": "city",
+									"value": "Campinas",
+									"disabled": true
+								},
+								{
+									"key": "cnpj",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "modality",
+									"value": "Medicina de Grupo",
+									"disabled": true
+								},
+								{
+									"key": "state",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "corp_name",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "fantasy_name",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Apr 2025 12:04:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "617"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"VILA ITAPURA\",\n        \"CEP\": 13023190,\n        \"CNPJ\": 11939445000158,\n        \"Cargo_Representante\": \"REPRESENTANTE\",\n        \"Cidade\": \"Campinas\",\n        \"Complemento\": \"CJ 51 A 54 - LOTE 5A\",\n        \"DDD\": \"19.0\",\n        \"Data_Registro_ANS\": \"2010-09-02\",\n        \"Endereco_eletronico\": \"diretoria@saudebeneficencia.com.br\",\n        \"Fax\": null,\n        \"Logradouro\": \"RUA TIRADENTES\",\n        \"Modalidade\": \"Medicina de Grupo\",\n        \"Nome_Fantasia\": \"SAÚDE BENEFICÊNCIA\",\n        \"Numero\": \"293\",\n        \"Razao_Social\": \"ASSOCIAÇÃO DE SAÚDE PORTUGUESA DE BENEFICÊNCIA\",\n        \"Regiao_de_Comercializacao\": \"5.0\",\n        \"Registro_ANS\": 417530,\n        \"Representante\": \"ARLY DE LARA ROMÊO\",\n        \"Telefone\": \"35001500.0\",\n        \"UF\": \"SP\"\n    }\n]"
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 import os
 
+
 # Método para criar a conexão e tabelas no BD a partir do csv
 def csv_to_sqlite():
     connection = sqlite3.connect(":memory:")  # Cria um banco temporário na memória
@@ -20,7 +21,8 @@ def csv_to_sqlite():
 
     df = pd.read_csv("Relatorio_cadop.csv", delimiter=";")
     df.to_sql("registros", connection, index=False, if_exists="replace")
-    return connection
+    
+    return connection 
 
 def make_query(connection, query):
     return pd.read_sql_query(query, connection)
